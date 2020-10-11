@@ -91,9 +91,9 @@ So, based on those answers, the flag is:
 
 `BSDCTF{2020-09-30_13:54:56$7fa07960$2020-09-30_14:04:39}`
 
-##2nd Challenge - Upside Down
+## 2nd Challenge - Upside Down
 
-_Description: My weird minded friend has a habit of sending messages through memes. He never used to say anything straight forward. Can u find what he is trying to say?_
+> Description: My weird minded friend has a habit of sending messages through memes. He never used to say anything straight forward. Can u find what he is trying to say?
 
 And we got an `.MSG` file. Of course, first thing I tried, because it's an MSG file, is to ~~put it in food~~ open it in Microsoft Outlook. But it won't open. And then I searched about the file signature of MSG file, it doesn't match with our MSG file. Huh, so I wondered around. Reading the challenge name, I could try to read the reversed byte, cuz it's _upside down_. "Haha," I thought to myself, thinking that it might be a ridiculous method. 
 
